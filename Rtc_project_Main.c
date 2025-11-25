@@ -51,8 +51,11 @@ int main()
 	}
 		else
 		{
+			CmdLCD(GOTO_LINE1_POS0+15);
+			CharLCD(' ');
 			Alarm_Ring=0;
 		}
 	}
 }
+
 
